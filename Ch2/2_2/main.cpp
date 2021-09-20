@@ -25,3 +25,14 @@ public:
         return m_bReadOnly;
     }
 };
+
+const QMetaObject* pmo = pobj->metaObject();
+for (int i = 0; i < pmo->propertyCount(); ++i)
+{
+    const QMetaProperty mp = pmo-property(i);
+    qDebug() << "Property#:" << i;
+    qDebug() << "Type:" << mp.typename();
+    qDebug() << "Name:" << mp.name();
+    qDebug() << "Value:" << pobj->property(mp.name());
+}
+
