@@ -1,0 +1,5 @@
+20.09.21-16:48 Info: Info Message, ..\3_2\main.cpp
+20.09.21-16:48 Debug: Debug Message, ..\3_2\main.cpp
+20.09.21-16:48 Warning: Warning Message, ..\3_2\main.cpp
+20.09.21-16:48 Critical: Critical Message, ..\3_2\main.cpp
+20.09.21-16:48 Fatal: Fatal Message, ..\3_2\main.cpp

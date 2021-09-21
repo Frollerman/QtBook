@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="open.png">G:/QtProjects/Ch3/PicEx/images/open.png</file>
+    <file alias="quit.png">G:/QtProjects/Ch3/PicEx/images/quit.png</file>
+</qresource>
+</RCC>
