@@ -70,17 +70,23 @@ int main(int argc, char *argv[])
     set1 << "Therion" << "Nightwish" << "Xandria";
     set2 << "Mantus" << "Haggard" << "Therion";
 
+//    QList<QString> list1;
+//    QList<QString> list2;
+//    QList<QString> list3;
+
     QSet<QString> setResult = set1;
     setResult.unite(set2);
-    qDebug() << "Unity = " << setResult;
+    //list1 = setResult.toList();
+    //qDebug() << "Unity = " << setResult.toList();
+    qDebug() << "Unity = " << setResult.values();
 
     setResult = set1;
     setResult.intersect(set2);
-    qDebug() << "Intersection of set1 with set2 = " << setResult;
+    qDebug() << "Intersection of set1 with set2 = " << setResult.values();
 
     setResult = set1;
     setResult.subtract(set2);
-    qDebug() << "Subtraction of set2 from set1 = " << setResult;
+    qDebug() << "Subtraction of set2 from set1 = " << setResult.values();
 
 
 
