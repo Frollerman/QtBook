@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ChordsMaestro.png</file>
+    </qresource>
+</RCC>
