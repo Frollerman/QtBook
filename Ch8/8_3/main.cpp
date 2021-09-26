@@ -10,7 +10,7 @@ int main(int argc, char**argv)
 
     QCheckBox* pchkTristate = new QCheckBox("&Tristate Check Box");
     pchkTristate->setTristate(true);
-    pchkTristate->setTristate(Qt::PartiallyChecked);
+    pchkTristate->setCheckState(Qt::PartiallyChecked);
 
     //Layout setup
 
