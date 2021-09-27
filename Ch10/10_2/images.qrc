@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MetroGnome.png</file>
+    </qresource>
+</RCC>
