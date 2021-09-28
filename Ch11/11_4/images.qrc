@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>drive.bmp</file>
+        <file>folder.bmp</file>
+    </qresource>
+</RCC>
