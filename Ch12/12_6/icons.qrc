@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Android.jpg</file>
+        <file>Linux.jpg</file>
+        <file>MacOS.jpg</file>
+        <file>Windows.jpg</file>
+        <file>OS2.jpg</file>
+    </qresource>
+</RCC>
